@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <BorderPane fx:id="borPane_main" layoutX="7.0" prefHeight="600.0" prefWidth="800.0">
+            <top>
+                <Pane prefHeight="100.0" prefWidth="800.0" BorderPane.alignment="CENTER">
+                    <children>
+                        <ImageView fx:id="imgv_logo" fitHeight="80.0" fitWidth="80.0" layoutX="56.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../images/logos/Aims_Logo.png" />
+                            </image>
+                        </ImageView>
+                        <TextField fx:id="txtf_searchBar" layoutX="164.0" layoutY="28.0" prefHeight="45.0" prefWidth="454.0" />
+                        <Button fx:id="btn_search" layoutX="527.0" layoutY="38.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="77.0" text="Search" />
+                        <ImageView fx:id="imgv_cart" fitHeight="80.0" fitWidth="80.0" layoutX="652.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../images/data/cart.jpg" />
+                            </image>
+                        </ImageView>
+                    </children>
+                </Pane>
+            </top>
+            <center>
+                <ScrollPane prefHeight="500.0" prefWidth="800.0" BorderPane.alignment="CENTER">
+                    <content>
+                        <Pane prefHeight="150.0" prefWidth="350.0">
+                            <children>
+                                <ImageView fitHeight="100.0" fitWidth="100.0" layoutX="29.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
+                                    <image>
+                                        <Image url="@../images/data/Who'sYourCat.jpg" />
+                                    </image>
+                                </ImageView>
+                                <Label layoutX="147.0" layoutY="42.0" text="Who's your cat Season 1">
+                                    <font>
+                                        <Font name="System Bold" size="16.0" />
+                                    </font>
+                                </Label>
+                                <Label layoutX="147.0" layoutY="65.0" text="Tom">
+                                    <font>
+                                        <Font name="System Italic" size="16.0" />
+                                    </font>
+                                </Label>
+                                <Label layoutX="147.0" layoutY="88.0" text="Price:">
+                                    <font>
+                                        <Font name="System Bold" size="16.0" />
+                                    </font>
+                                </Label>
+                                <Label layoutX="196.0" layoutY="88.0" text="120 000 VND">
+                                    <font>
+                                        <Font size="16.0" />
+                                    </font>
+                                </Label>
+                            </children>
+                        </Pane>
+                    </content>
+                    <opaqueInsets>
+                        <Insets />
+                    </opaqueInsets>
+                    <padding>
+                        <Insets bottom="7.0" left="7.0" right="7.0" top="7.0" />
+                    </padding>
+                </ScrollPane>
+            </center>
+        </BorderPane>
+    </children>
+</Pane>

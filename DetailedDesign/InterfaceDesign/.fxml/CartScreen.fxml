@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0">
+            <top>
+                <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="100.0" prefWidth="800.0" BorderPane.alignment="CENTER">
+                    <children>
+                        <ImageView fitHeight="80.0" fitWidth="80.0" layoutX="50.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../images/logos/Aims_Logo.png" />
+                            </image>
+                        </ImageView>
+                        <Label layoutX="144.0" layoutY="5.0" text="Your cart">
+                            <font>
+                                <Font name="Forte" size="55.0" />
+                            </font>
+                        </Label>
+                    </children>
+                </Pane>
+            </top>
+            <left>
+                <ScrollPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="550.0" BorderPane.alignment="CENTER">
+                    <content>
+                        <Pane prefHeight="150.0" prefWidth="530.0">
+                            <children>
+                                <ImageView fitHeight="100.0" fitWidth="100.0" layoutX="29.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
+                                    <image>
+                                        <Image url="@../images/data/Who'sYourCat.jpg" />
+                                    </image>
+                                </ImageView>
+                                <Label layoutX="141.0" layoutY="44.0" text="Who's Your Cat Season 1">
+                                    <font>
+                                        <Font name="System Bold" size="16.0" />
+                                    </font>
+                                </Label>
+                                <Label layoutX="147.0" layoutY="65.0" text="Tom">
+                                    <font>
+                                        <Font name="System Italic" size="16.0" />
+                                    </font>
+                                </Label>
+                                <Label layoutX="141.0" layoutY="88.0" text="Price:">
+                                    <font>
+                                        <Font name="System Bold Italic" size="16.0" />
+                                    </font>
+                                </Label>
+                                <Label layoutX="189.0" layoutY="88.0" text="120 000 VND">
+                                    <font>
+                                        <Font size="16.0" />
+                                    </font>
+                                </Label>
+                                <TextField layoutX="411.0" layoutY="28.0" prefHeight="25.0" prefWidth="90.0" />
+                                <Label layoutX="330.0" layoutY="28.0" text="Quantity:">
+                                    <font>
+                                        <Font name="System Bold Italic" size="16.0" />
+                                    </font>
+                                </Label>
+                                <Button layoutX="350.0" layoutY="64.0" mnemonicParsing="false" text="Delete this item from cart" />
+                                <Label layoutX="402.0" layoutY="97.0" text="120 000 VND">
+                                    <font>
+                                        <Font size="16.0" />
+                                    </font>
+                                </Label>
+                                <Label layoutX="354.0" layoutY="97.0" text="Total:">
+                                    <font>
+                                        <Font name="System Bold Italic" size="16.0" />
+                                    </font>
+                                </Label>
+                            </children>
+                        </Pane>
+                    </content>
+                    <padding>
+                        <Insets bottom="7.0" left="7.0" right="7.0" top="7.0" />
+                    </padding>
+                </ScrollPane>
+            </left>
+            <right>
+                <Pane prefHeight="500.0" prefWidth="250.0" BorderPane.alignment="TOP_LEFT">
+                    <children>
+                        <Label layoutX="14.0" layoutY="99.0" text="Subtotal:">
+                            <font>
+                                <Font name="System Bold Italic" size="18.0" />
+                            </font>
+                        </Label>
+                        <Button layoutX="68.0" layoutY="152.0" mnemonicParsing="false" text="Place order">
+                            <font>
+                                <Font size="18.0" />
+                            </font>
+                        </Button>
+                        <Label layoutX="122.0" layoutY="99.0" text="120 000 VND">
+                            <font>
+                                <Font size="18.0" />
+                            </font>
+                        </Label>
+                    </children>
+                </Pane>
+            </right>
+        </BorderPane>
+    </children>
+</Pane>
