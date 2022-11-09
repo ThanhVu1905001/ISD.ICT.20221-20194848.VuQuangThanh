@@ -73,10 +73,10 @@
                             <children>
                                 <ImageView fitHeight="80.0" fitWidth="80.0" layoutX="14.0" layoutY="35.0" pickOnBounds="true" preserveRatio="true">
                                     <image>
-                                        <Image url="@../images/beastars_thumb.jpg" />
+                                        <Image url="@../images/data/Who'sYourCat.jpg" />
                                     </image>
                                 </ImageView>
-                                <Label layoutX="106.0" layoutY="23.0" text="Beastars Season 1">
+                                <Label layoutX="106.0" layoutY="23.0" text="Who's your cat Season 1">
                                     <font>
                                         <Font name="System Bold" size="16.0" />
                                     </font>

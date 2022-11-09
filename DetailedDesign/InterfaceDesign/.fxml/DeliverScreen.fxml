@@ -24,7 +24,7 @@
                     </children>
                 </Pane>
             </top>
-            <center>
+         <bottom>
                 <Pane prefHeight="500.0" prefWidth="800.0" BorderPane.alignment="CENTER">
                     <children>
                         <TextField layoutX="242.0" layoutY="60.0" prefHeight="35.0" prefWidth="420.0" />
@@ -69,7 +69,7 @@
                         </CheckBox>
                     </children>
                 </Pane>
-            </center>
+         </bottom>
         </BorderPane>
     </children>
 </Pane>
